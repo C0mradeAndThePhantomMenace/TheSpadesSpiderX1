@@ -13,7 +13,7 @@ console.log(`HTML Page: ${page}`)
 
 let pagePart = {
     "headerID": "/TheSpadesSpiderX1v0.1/src-HTML/header.html",
-    "navID": "/TheSpadesSpiderX1v0.1/src-HTML/Nav.html",
+    "navID": "/TheSpadesSpiderX1v0.1/src-HTML/nav.html",
 }
 
 const htmlInject = (htmlID, htmlCode) => document.getElementById(htmlID).innerHTML = htmlCode;
