@@ -1,13 +1,13 @@
 /**
  * 
 home.js
-\TheSpadesSpiderX1v0.1\src-JS\home.js
+\TheSpadesSpiderX1\src-JS\home.js
  */
 
-console.log("\TheSpadesSpiderX1v0.1\src-JS\home.js: Hi! 2")
+console.log("\TheSpadesSpiderX1\src-JS\home.js: Hi! 2")
 
 let homePagePart = {
-    "main": "/TheSpadesSpiderX1v0.1/src-HTML/mainHome.html",
+    "main": "/TheSpadesSpiderX1/src-HTML/mainHome.html",
 }
 
 // htmlInject (htmlID, htmlCode)

@@ -1,19 +1,19 @@
 /**
  * 
 script.js
-\TheSpadesSpiderX1v0.1\src-JS\script.js
+\TheSpadesSpiderX1\src-JS\script.js
  */
 
 let page = (window.location.pathname).split("/").pop() || "index.html"
 
 console.log ( page)
 
-console.log("JavaScript: /TheSpadesSpiderX1v0.1/src-JS/script.js: Hi! 2")
+console.log("JavaScript: /TheSpadesSpiderX1/src-JS/script.js: Hi! 2")
 console.log(`HTML Page: ${page}`)
 
 let pagePart = {
-    "headerID": "/TheSpadesSpiderX1v0.1/src-HTML/header.html",
-    "navID": "/TheSpadesSpiderX1v0.1/src-HTML/nav.html",
+    "headerID": "/TheSpadesSpiderX1/src-HTML/header.html",
+    "navID": "/TheSpadesSpiderX1/src-HTML/nav.html",
 }
 
 const htmlInject = (htmlID, htmlCode) => document.getElementById(htmlID).innerHTML = htmlCode;
