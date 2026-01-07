@@ -14,7 +14,7 @@ https://github.com/C0mradeAndThePhantomMenace/TheSpadesSpiderX1
 
 https://github.com/codespaces
 
-https://supreme-enigma-v6gwxqp9q6wgcj45.github.dev/
+https://organic-telegram-wr9xwgvpg7gq3w5q.github.dev/
 
 ### Github Pages:
 
