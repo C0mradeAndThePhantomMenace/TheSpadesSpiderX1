@@ -1,45 +1,42 @@
 /**
  * 
 script.js
-\TheSpadesSpiderX1\src-JS\script.js
+/TheSpadesSpiderX1/src-JS/script.js
  */
 
-let page = (window.location.pathname).split("/").pop() || "index.html"
-
-console.log ( page)
-
 console.log("JavaScript: /TheSpadesSpiderX1/src-JS/script.js: Hi! 2")
-console.log(`HTML Page: ${page}`)
 
-let pagePart = {
-    "headerID": "/TheSpadesSpiderX1/src-HTML/header.html",
-    "navID": "/TheSpadesSpiderX1/src-HTML/nav.html",
-}
+// let pagePart = {
+//     "headerID": "/TheSpadesSpiderX1/src-HTML/header.html",
+//     "navID": "/TheSpadesSpiderX1/src-HTML/nav.html",
+// }
 
-const htmlInject = (htmlID, htmlCode) => document.getElementById(htmlID).innerHTML = htmlCode;
+// const htmlInject = (htmlID, htmlCode) => document.getElementById(htmlID).innerHTML = htmlCode;
 
-const htmlLoader = (htmlFileSrc) => fetch(htmlFileSrc)
-    // .then(
-    //     response => response.ok ? ((function () { return response.text() })())
-    //         : ((function () { throw new Error('Network response was not ok ' + response.statusText) })())
-    // )
-    .then(response => {
-        if (response.ok) return response.text(); // Get the response as plain text
-        else throw new Error('Network response was not ok ' + response.statusText);
-    })
-    .catch(error => {
-        console.error('There was a problem with the fetch operation:', error);
-    });
+// const htmlLoader = (htmlFileSrc) => fetch(htmlFileSrc)
+//     // .then(
+//     //     response => response.ok ? ((function () { return response.text() })())
+//     //         : ((function () { throw new Error('Network response was not ok ' + response.statusText) })())
+//     // )
+//     .then(response => {
+//         if (response.ok) return response.text(); // Get the response as plain text
+//         else throw new Error('Network response was not ok ' + response.statusText);
+//     })
+//     .catch(error => {
+//         console.error('There was a problem with the fetch operation:', error);
+//     });
 
-const htmlHandler = (htmlFileSrc, htmlID) => htmlLoader(htmlFileSrc)
-    .then(htmlCode => htmlInject(htmlID, htmlCode))
-    .catch(error => console.error('There was a problem:', error))
+// const htmlHandler = (htmlFileSrc, htmlID) => htmlLoader(htmlFileSrc)
+//     .then(htmlCode => htmlInject(htmlID, htmlCode))
+//     .catch(error => console.error('There was a problem:', error))
 
-for (const key in pagePart) {
-    console.log(key, pagePart[key])
-    htmlHandler(pagePart[key], key)
-}
+// for (const key in pagePart) {
+//     console.log(key, pagePart[key])
+//     htmlHandler(pagePart[key], key)
+// }
 
+pagePartHeaderHandler()
+pagePartMainHandler()
 
 /**
  * 
