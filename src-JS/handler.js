@@ -14,7 +14,7 @@ const htmlLoader = (htmlFileSrc) => fetch(htmlFileSrc)
         else throw new Error('Network response was not ok ' + response.statusText);
     })
     .catch(error => {
-        console.error('There was a problem with the fetch operation:', error);
+        console.error("**@:", htmlID, htmlFileSrc,'There was a problem with the fetch operation:', error);
     });
 
 const htmlHandler = (htmlID, htmlFileSrc) => htmlLoader(htmlFileSrc)

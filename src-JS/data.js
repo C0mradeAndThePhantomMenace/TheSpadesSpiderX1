@@ -24,9 +24,11 @@ let pagePartHeader2 = {
 }
 
 let pagePartMain = {
-    "subTitleID": "/TheSpadesSpiderX1/src-HTML/subTitle2" + page,
+    "subTitle2ID": "/TheSpadesSpiderX1/src-HTML/subTitle2" + page,
     "mainID": "/TheSpadesSpiderX1/src-HTML/main2" + page,
 }
+
+console.log("*** pagePartMain:", pagePartMain)
 
 let pagePartFooter = {
 
