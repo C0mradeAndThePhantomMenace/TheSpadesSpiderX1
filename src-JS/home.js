@@ -6,6 +6,11 @@ home.js
 
 console.log("\TheSpadesSpiderX1\src-JS\home.js: Hi! 2")
 
+
+pagePartHeaderHandler()
+
+pagePartMainHandler()
+
 // let homePagePart = {
 //     "main": "/TheSpadesSpiderX1/src-HTML/mainHome.html",
 // }

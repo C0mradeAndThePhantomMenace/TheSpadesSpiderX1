@@ -35,8 +35,8 @@ console.log("JavaScript: /TheSpadesSpiderX1/src-JS/script.js: Hi! 2")
 //     htmlHandler(pagePart[key], key)
 // }
 
-pagePartHeaderHandler()
-pagePartMainHandler()
+// pagePartHeaderHandler()
+// pagePartMainHandler()
 
 /**
  * 
